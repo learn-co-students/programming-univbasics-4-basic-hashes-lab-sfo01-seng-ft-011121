@@ -1,19 +1,15 @@
 def new_hash
-  return Hash.new
+  Hash.new
 end
 
 def my_hash
-  return {
-    name: "Axel",
-    cuter_than_you: true
-  }
+  { name: "Axel" }
 end
 
 def pioneer
-  return { name: "Grace Hopper" }
+  { name: "Grace Hopper" }
 end
 
-
-def id_hash_generator(num)
-  return { id: num }
+def id_hash_generator(int)
+  { id: int }
 end
